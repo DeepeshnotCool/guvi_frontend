@@ -6,13 +6,14 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && expo start",
-    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && expo build"
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && expo start",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && expo build"
   },
   "dependencies": {
     "@expo/webpack-config": "^0.17.2",
     "@react-navigation/native": "^6.1.1",
     "@react-navigation/native-stack": "^6.9.7",
+    "android": "^0.0.8",
     "axios": "^1.2.1",
     "expo": "~47.0.9",
     "expo-status-bar": "~1.4.2",
