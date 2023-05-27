@@ -11,11 +11,37 @@ const App = () => {
   return (
     <NavigationContainer theme={theme}>
       <AuthNavigator />
+      console.log(process.memoryUsage());
     </NavigationContainer>
   );
 };
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

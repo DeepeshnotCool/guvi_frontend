@@ -13,6 +13,7 @@ import { Formik } from "formik";
 import * as yup from "yup";
 import CustomFormik from "./customFormik";
 import { signup } from "../../../utils/auth";
+import LoginSubmitButton from "./LoginSubmitButton";
 
 
 const initialValues = {
@@ -66,7 +67,7 @@ const Signup = () => {
           <AppInput name="email" placeholder="example@email.com" />
           <AppInput secureTextEntry name="password" placeholder="********" />
           <AppInput name="mobile" placeholder="+91 123-456-7890" />
-          <SubmitButton title="Signup" />
+          <LoginSubmitButton title="Signup" navigateToScreen="camera"/>
           <FormNavigator
             onLeftLinkPress={navigateToLogin(navigation)}
             leftLinkText="Login"

@@ -9,6 +9,7 @@ import { navigateToForgotPassword, navigateToSignup } from '../../../utils/helpe
 import CustomFormik from './customFormik';
 import * as yup from "yup";
 import { signin } from '../../../utils/auth';
+import LoginSubmitButton from './LoginSubmitButton';
 
 
 const initialValues = {
@@ -56,7 +57,7 @@ const Login = () => {
             <AppInput name ='name' placeholder="Ghost Rider" />
             <AppInput name = 'email' placeholder="example@email.com" />
             <AppInput secureTextEntry name = 'password' placeholder="********" />
-            <SubmitButton title='Login'/>
+            <LoginSubmitButton title='Login'  navigateToScreen="camera" />
             <FormNavigator onLeftLinkPress={navigateToSignup(navigation)} onRightLinkPress={navigateToForgotPassword(navigation)} leftLinkText="Signup"  rightLinkText = "Forget Password" />        
             </CustomFormik>
         </FormContainer>
