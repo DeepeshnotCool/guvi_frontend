@@ -18,3 +18,5 @@ Start the MongoDB server by running mongod in a separate terminal window\
 In the root directory of the project, run npm start to start the application\
 The application should now be running on http://localhost:3000 \
 Note: There is an additional repository for the backend of this project. Be sure to clone and set up that repository as well in order to fully run the application.
+
+![alt text](https://photos.google.com/share/AF1QipNe4jK9ilQ17mfL0-tAKvak0qPbgtPVjajmlMFoHtSJMiF7nhpn8A8xwOQ0dbCyVA/photo/AF1QipMdUubB7n-PBD71Cyhy6XRwxNEzU1jjPWMs1KBp?key=UWtPWDV1TUhUckoxRWR1dlpWYTRNREhyQlpRekNB)
