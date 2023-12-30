@@ -19,4 +19,4 @@ In the root directory of the project, run npm start to start the application\
 The application should now be running on http://localhost:3000 \
 Note: There is an additional repository for the backend of this project. Be sure to clone and set up that repository as well in order to fully run the application.
 
-![alt text](https://photos.google.com/share/AF1QipNe4jK9ilQ17mfL0-tAKvak0qPbgtPVjajmlMFoHtSJMiF7nhpn8A8xwOQ0dbCyVA/photo/AF1QipMdUubB7n-PBD71Cyhy6XRwxNEzU1jjPWMs1KBp?key=UWtPWDV1TUhUckoxRWR1dlpWYTRNREhyQlpRekNB)
+![Screenshot_2023-05-03-21-39-11-56_f73b71075b1de7323614b647fe394240](https://github.com/DeepeshnotCool/guvi_frontend/assets/58002365/2fa4f60f-8d6b-4626-a0a9-3af277526b6e)
