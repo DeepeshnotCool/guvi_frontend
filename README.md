@@ -1,23 +1,32 @@
-# guvi_frontend
-
+# down2Up
 
 Welcome to the Mern Authentication Project repository! This project is a full stack authentication application built using the MERN stack (MongoDB, ExpressJS, React-Native, and NodeJS).
 
-# Features
-User login and signup\
-Password reset functionality via email\
-Frontend built using React-Native\
-Backend built using ExpressJS and connected to a MongoDB database
-# Getting Started
+## Features
+- User login and signup
+- Password reset functionality via email
+- Frontend built using React-Native
+- Backend built using ExpressJS and connected to a MongoDB database
+
+## Getting Started
 To get started with this project, follow these steps:
 
-Clone this repository to your local machine\
-Make sure you have NodeJS and MongoDB installed on your machine\
-Navigate to the root directory of the project and run npm install to install the necessary dependencies\
-Start the MongoDB server by running mongod in a separate terminal window\
-In the root directory of the project, run npm start to start the application\
-The application should now be running on http://localhost:3000 \
-Note: There is an additional repository for the backend of this project. Be sure to clone and set up that repository as well in order to fully run the application.
+1. Clone this repository to your local machine
+2. Make sure you have NodeJS and MongoDB installed on your machine
+3. Navigate to the root directory of the project and run `npm install` to install the necessary dependencies
+4. Start the MongoDB server by running `mongod` in a separate terminal window
+5. In the root directory of the project, run `npm start` to start the application
+6. The application should now be running on [http://localhost:3000](http://localhost:3000)
+
+**Note:** There is an additional repository for the backend of this project. Be sure to clone and set up that repository as well in order to fully run the application.
+
+Backend Repository Link: [guvi_backend](https://github.com/DeepeshnotCool/guvi_backend)
+
+## About the App
+This application, named 'down2Up,' is designed for children with Down syndrome. The app aims to assist with speech and facial therapy. Although this repository showcases a prototype, the full MERN authentication setup is implemented, with MongoDB utilized as the database to store user information.
+
+## Screenshots of the App below
+
 
 | Sign UP                                                | Login                                                  | Forgot Password                                        | Home                                                   |
 |--------------------------------------------------------|--------------------------------------------------------|--------------------------------------------------------|--------------------------------------------------------|
